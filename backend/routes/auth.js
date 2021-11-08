@@ -90,7 +90,6 @@ router.post('/login', [
 })
 
 
-
 //ROUTE 3: Get Loggedin User details Using: Post "/api/auth/getuser". Login Require
 router.post('/getuser',fetchuser, async (req, res) => {
   try {
